@@ -1,0 +1,9 @@
+# Ignore environment files and caches
+.env
+.vscode/
+__pycache__/
+data/raw/
+data/vector_store/
+backup/
+*.pdf
+*.zip

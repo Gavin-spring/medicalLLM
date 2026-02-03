@@ -1,0 +1,16 @@
+# 向量数据库配置
+vector_store:
+  path: "data/vector_store"
+  collection_name: "nephrology_clinical"
+  k_neighbors: 5
+
+# 模型配置 (可以公开的模型名称)
+llm:
+  model_name: "qwen-flash-2025-07-28"
+  temperature: 0
+  max_tokens: 1024
+
+# 文本切分策略
+text_splitter:
+  chunk_size: 600
+  chunk_overlap: 100
